@@ -24,6 +24,14 @@ a:hover{
 body {
 	background-image: url("multimediji/pozadina2.jpg");
 }
+@font-face {
+	font-family: "AnjaVidas";
+	src: url("font/AnjaVidas.ttf") format("truetype");
+}
+h1 {
+	font-size:50px;
+	font-family: "AnjaVidas.ttf", sans-serif;
+}
 .p1 {
 	font-family: "AnjaVidas";
 }
@@ -37,10 +45,4 @@ p {
 }
 a {
 	font-size:22px;
-}
-@font-face {
-	font-family: "AnjaVidas";
-	src: url("font/AnjaVidas.ttf") format("truetype")
-h1 {
-	font-family: "AnjaVidas".ttf", sans-serif;
 }
