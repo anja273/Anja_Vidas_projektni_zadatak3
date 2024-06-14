@@ -21,13 +21,7 @@ a:link {
 a:hover{
 	background-color: LightGray;
 }
-@font-face {
-	font-family: "AnjaVidas";
-	src: url("font/AnjaVidas.ttf") format("truetype")
-h1 {
-	font-family: "AnjaVidas".ttf", sans-serif;
-}
-body{
+body {
 	background-image: url("multimediji/pozadina2.jpg");
 }
 .p1 {
@@ -43,4 +37,10 @@ p {
 }
 a {
 	font-size:22px;
+}
+@font-face {
+	font-family: "AnjaVidas";
+	src: url("font/AnjaVidas.ttf") format("truetype")
+h1 {
+	font-family: "AnjaVidas".ttf", sans-serif;
 }
